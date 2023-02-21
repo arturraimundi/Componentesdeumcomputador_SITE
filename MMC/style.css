@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    color: rgb(163, 99, 181);
+}
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    color: rgb(14, 0, 108);
+}
+.turma{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    color: rgb(14, 0, 108);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.title{
+    color: rgb(88, 88, 172);
+}
+.secondtext{
+    color: rgb(30, 30, 123);
+}
+.bottomtext{
+    color: rgb(29, 52, 109);
+}
+.card{
+    background-color: #fff;
+    box-shadow: 0px 2px 18px #3b64869a ;
+    border-radius: 20px;
+    width: 400px;
+}
+
+
+.mediacard{
+    background: url(https://img.ibxk.com.br/2012/7/materias/21382010627191727-o.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard2{
+    background: url(https://images.kabum.com.br/produtos/fotos/153652/fonte-gamer-rise-mode-atomic-500w-led-branco-rm-fe-03-at_1631275435_gg.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard3{
+    background: url(https://files.tecnoblog.net/wp-content/uploads/2021/03/intel-core-11-geracao-desktops-chip-768x538.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard4{
+    background: url(https://gironatv.com/wp-content/uploads/2022/04/placa-de-video-nvidia-geforce-gpu-gtx-1660-ti-6gb-gddr6-192-bits-dual-fan--768x768.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard5{
+    background: url(https://m.media-amazon.com/images/I/61GpY38PAWL._AC_SY450_.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard6{
+    background: url(https://www.hostmidia.com.br/img/blog/upload/xg-memoria-o-que-e-para-que-serve.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard7{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/220px-Laptop-hard-drive-exposed.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard8{
+    background: url(https://blog.elgscreen.com/wp-content/uploads/2020/07/tipos-de-ssd-para-notebook-sata-m2.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediacard9{
+    background: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQF4CT4NWeF1kt4rJEr8YuxpizcBKQ9pdNdYLhwrJJw36ntjddsRHO1IiQvX12UIyDoTfGMM8xucFyWP412f42iZcS2Y1GllzYqK3_sc2HFWa8cbU5jaFh5&usqp=CAE)  center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.redes{
+    scale: 20px;
+    background: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+}
+.link:link {
+    color: rgb(0, 23, 128);
+    text-decoration: none;
+}
+
+.link:visited {
+    color: rgba(174, 0, 255, 0.762);
+    text-decoration: none;
+}
+.topcard{
+    padding-top: 0px;
+    padding: 20px;
+}
+
+.bottomcard{
+    padding: 20px;
+}
+.actions{
+ 
+    background-color: none;
+    box-shadow: 0px 2px 10px #3b64869a ;
+    border-radius: 10px;
+    border: none;
+}
+.actions:visited{
+    color: rgba(174, 0, 255, 0.762);
+}
+.git{
+    height: 70px;
+    margin-top: 40px;
+    
+}
+.rep{
+    color:rgb(23, 10, 10)
+}
