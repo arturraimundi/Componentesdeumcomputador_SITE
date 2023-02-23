@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Componentes</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Periféricos</title>
+    <meta charset="UTF-8">
     <link rel = "stylesheet" href="style.css" type="text/css">
     <link rel="icon" type="imagem/png" href="https://rwnobrega.page/media/ifsc-logo.png" />
+
 </head>
 <body>
     <header>
@@ -15,30 +17,114 @@
         <a href="index2.html"><img src="data:image/png;base64,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" class="icon"></a>
     </header>
 
-    <div class="texto">
-        <h2>O que é o hardware?</h2>   
-    </div>
 
-    <div class="texto">
-        <p>Hardware é todo componente físico, interno ou externo do seu computador, ou celular, que determina do que um dispositivo é capaz e como você pode usá-lo. Embora dependa de um software para funcionar (e vice-versa), o hardware é um elemento a parte e igualmente importante.</p>    
+    <div class=terceirotitle>
+        <h1>Periféricos</h1>
     </div>
-    <div class="texto">
-        <h2>Componentes de um computador</h2>   
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Monitor</h2>
+                <span class="secondtext">O que é um monitor?</span>
+            </div>
+            <div class="mediacardmonitor"></div>
+            <div class="bottomcard">
+                <span class="bottomtext"> Esse é o dispositivo que
+                     funciona para transmitir o que está sendo realizado no 
+                     computador, seja através do movimento dos olhos ou do seu corpo,
+                     para que assim você possa perceber todos os dados 
+                     que estão sendo requisitados. Os monitores podem ter uma taxa de atualização maior que 
+                     240Hz e uma taxa de resposta de 1ms.</span>
+            </div>
+        </div>
     </div>
-    <div class="texto">
-        <p>É todo aquele que não está visível e integra as partes internas de seu dispositivo. Em Ciência da Computação, entende-se componentes como processador, placa-mãe, memória RAM, placa de vídeo, coolers e ventoinhas, cabos internos, fonte, HD, SSD, SSHD, etc.</p>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Teclado</h2>
+                <span class="secondtext">Para que serve um?</span>
+            </div>
+            <div class="mediacardteclado"></div>
+            <div class="bottomcard">
+                <span class="bottomtext">O teclado é um dos acessórios indispensáveis para a informática e para qualquer pessoa que utilize um computador, ele 
+                    fornece uma série de atalhos para diversas funções, 
+                    facilitando a realização das tarefas e consequentemente
+                     a melhora nos resultados produzidos a partir do computador.</span>
+            </div>
+        </div>
     </div>
-    <div class="texto">
-        <h2>Periféricos de um Computador</h2>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Mouse</h2>
+                <span class="secondtext">O que é um mouse?</span>
+            </div>
+            <div class="mediacardmouse"></div>
+            <div class="bottomcard">
+                <span class="bottomtext">O mouse é o periférico que nos permite
+                     interagir com os objetos que aparecem na tela através 
+                     de um cursor que podemos ver no monitor.
+                      Geralmente o mouse possui dois botões: o esquerdo é usado para abrir,
+                       arrastar, selecionar e executar funções. Por outro lado, o direito
+                        permite acessar as funções adicionais dos comandos. 
+
+                       </span>
+            </div>
+        </div>
     </div>
-    <div class="texto">
-        <p>O periférico na Informática define-se como sendo um aparelho que envia e recebe informações de um computador. Esses periféricos, sejam eles para receber ou enviar informações, estão todos ligados ao CPU (Unidade de Processamento de Dados, ver aqui o que é) do computador.</p>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Headset</h2>
+                <span class="secondtext">o que é um headset?</span>
+            </div>
+            <div class="mediacardheadset"></div>
+            <div class="bottomcard">
+                <span class="bottomtext">Headset é um equipamento formado por um 
+                    fone de ouvido e um microfone acoplado. 
+                    Usado na área de telecomunicação, com desenho ergonômico, 
+                    que é fixado na cabeça do usuário. Estes tipos de fones são bastant
+                    e comum, pois normalmente eles evitam que o som ouvido transpasse o próprio fone, 
+                    além é claro de possuir microfone para conversas via 
+                    mensageiros instantâneos ou VOIP.</span>
+            </div>
+        </div>
     </div>
-    <div class="texto">
-        <h2>Entrada e saída</h2>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Impressora</h2>
+                <span class="secondtext">Impressora é periférico?</span>
+            </div>
+            <div class="mediacardimpressora"></div>
+            <div class="bottomcard">
+                <span class="bottomtext">Uma impressora é um periférico que
+                     sua função é a emissão de listagens de dados ou fontes de programas.
+                      As impressoras são classificadas, quanto a forma de comunicação,
+                       como Seriais ou Paralelas, e a tecnologia de impressão pode
+                        ser Laser, Jato de Tinta, Matriciais de Impacto, entre outras. É através dela que os dados são fixados no papel, é sem dúvida a mais importante saída de dados. Existem vários tipos de impressoras, tanto de baixa velocidade como de alta velocidade. Algumas possuem definição melhor que a outra,
+                     algumas imprimem em preto e branco e outras, colorido.</span>
+            </div>
+        </div>
     </div>
-    <div class="texto">
-        <p>Os periféricos podem ser de entrada, saída ou de entrada e saída, reconhecidos como dispositivos E/S. Um exemplo de dispositivo de entrada é o teclado, de saída o monitor e de entrada e saída uma impressora.</p>
+    <div class="content">
+        <div class="card">
+            <div class="topcard">
+                <h2 class="title">Controle</h2>
+                <span class="secondtext">Controle para games</span>
+            </div>
+            <div class="mediacardcontrole"></div>
+            <div class="bottomcard">
+                <span class="bottomtext">Um controle de jogo 
+                    é um dispositivo de entrada, ou periférico,
+                     usado para controlar um videojogo. Um controlador
+                      é normalmente conectado a um arcade, consola de jogos 
+                      ou computador pessoal e pode ser um teclado, mouse/rato, 
+                      comando de videojogos (gamepad), manípulo eletrónico (joystick),
+                       paddle ou
+                     qualquer dispositivo projetado para jogos que pode receber comandos. </span>
+            </div>
+        </div>
     </div>
     <div class="gif">
         <img src="https://media.tenor.com/q9s_XmoedE8AAAAj/piske-usagi.gif">
@@ -54,9 +140,5 @@
         <p >. </p>
 
     </div>
-    
-    
-
-
 </body>
 </html>

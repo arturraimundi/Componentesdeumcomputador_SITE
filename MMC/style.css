@@ -3,6 +3,139 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background: linear-gradient(to bottom, rgb(129, 173, 255), rgb(242, 120, 120), rgb(230, 167, 255));
+    background-color: rgb(129, 173, 255);
+}
+.body{
+    background-color: #000000;
+
+}
+.texto{
+
+    height: 100%;
+    display: flex;
+  
+
+    color:#fff
+
+}
+.backhome{
+    background-color: #000e45;
+
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 80px;
+    display:flex;
+    background-color: rgba(125, 129, 238, 0.619);
+    box-shadow: 0px 2px 18px rgb(85, 85, 229);
+    color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+footer{
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    color: #000000;
+    height: 105%;
+    text-align: center;
+    line-height: 100%;
+    border-left: -5px;
+    
+
+}
+.icon{
+    max-width: 60px;
+    max-height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.links{
+    margin: 5px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    text-justify: center;
+
+}
+.hometitlebox{
+    
+    background-color: #fff;
+    box-shadow: 0px 2px 18px #3b6486 ;
+    border-radius: 20px;
+    width: 365px;
+
+}
+.hometitle{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+
+.homeicon{
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    width: -40px;
+    margin-top: 15px;
+    margin-right: 30px;
+    
+}
+.secondpage{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+
+    
+}
+.motherboard{
+    max-width: 80px;
+    max-height:79px;
+    width: auto;
+    height: auto;
+    display: flex;
+    border-left: 20px;
+
+}
+.cat{
+    max-width: 80px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.secondpagetext{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    color:#dce0f3
+
+}
+h4{
+    color:#ffffff9a;
+    list-style-type: none;
+    margin: 10px;
+    margin-right: 20px;
+
+
 }
 
 .gif{
@@ -15,16 +148,7 @@ body{
     background-color: pink;
     color: rgb(163, 99, 181);
 }
-.barra{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100px;
-    background-color: none;
-    color: rgb(14, 0, 108);
-}
+
 .turma{
     display: flex;
     justify-content:left;
@@ -42,12 +166,16 @@ body{
     align-content: center;
     width: 100%;
     height: 100vh;
+    
 
 
 }
 
 .title{
     color: rgb(88, 88, 172);
+    margin-left: 10px;
+    text-align: center;
+    
 }
 .secondtext{
     color: rgb(30, 30, 123);
@@ -62,11 +190,47 @@ body{
     width: 400px;
 }
 
+.mediacardmonitor{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRClJxJAxHFNApCKcvJpv7ggi4Bklm5Zsuo_A&usqp=CAU)  center/cover;
+    height: 300px;
+    width: 100%;
 
+}
+.mediacardmouse{
+    background: url(https://images.kabum.com.br/produtos/fotos/sync_mirakl/199393/Mouse-Sem-Fio-Gamer-Logitech-G-Pro-Lightspeed-16000dpi-g-pro-910-005271_1668778115_g.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+.mediacardheadset{
+    background: url(https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/oficinadosbits/media/uploads/produtos/foto/nzsxsvyl/file.png)  center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+.mediacardteclado{
+    background: url(https://s.zst.com.br/cms-assets/2020/04/teclado-zoom-1.png)  center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+.mediacardimpressora{
+    background: url(https://img.freepik.com/vetores-gratis/impressora-com-ilustracao-em-papel_138676-2396.jpg?w=2000)  center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+.mediacardcontrole{
+    background: url(https://assets.xboxservices.com/assets/8e/d4/8ed4fb28-7a81-4abe-94e4-c5327b25e697.jpg?n=Accessories-Hub_Content-Placement-0_2020-Controller-Blue_788x444.jpg)  center/cover;
+    height: 300px;
+    width: 100%;
+
+}
 .mediacard{
     background: url(https://img.ibxk.com.br/2012/7/materias/21382010627191727-o.jpg)  center/cover;
     height: 300px;
     width: 100%;
+ 
 }
 .mediacard2{
     background: url(https://images.kabum.com.br/produtos/fotos/153652/fonte-gamer-rise-mode-atomic-500w-led-branco-rm-fe-03-at_1631275435_gg.jpg)  center/cover;
@@ -129,6 +293,7 @@ body{
 
 .bottomcard{
     padding: 20px;
+    text-align: center;
 }
 .actions{
  
@@ -143,8 +308,31 @@ body{
 .git{
     height: 70px;
     margin-top: 40px;
+    margin-left: 80px;
     
 }
 .rep{
     color:rgb(23, 10, 10)
+}
+.terceirotitle{
+    color: rgb(88, 88, 172);
+    margin-left: 10px;
+    margin-bottom: -70px;
+    text-align: center;
+    box-shadow:0px 2px 18px #000e45;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.github h2{
+    display: flex;
+    padding-left: 80px;
+    color:rgb(255, 255, 255);
+    
+}
+.github{
+    background-color: rgb(30, 1, 23);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
 }
